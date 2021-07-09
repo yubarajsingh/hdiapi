@@ -13,7 +13,7 @@ const calling =async()=>{
     data= await response.json()
     
     
-    data.slice(-5).reverse().forEach(da=>{
+    data.slice(-10).reverse().forEach(da=>{
        let date=toTimestamp(da.date)
         
         
